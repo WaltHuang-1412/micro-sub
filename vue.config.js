@@ -17,6 +17,7 @@ module.exports = defineConfig({
   },
   configureWebpack: {
     output: {
+      filename: 'js/app.js',
       libraryTarget: 'system',
     },
     // externals: ["vue", "vue-router"],
