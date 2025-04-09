@@ -1,0 +1,12 @@
+@import "./element-variables.scss";
+
+.success-notification {
+    background-color: #009e96;
+
+    .el-notification__content {
+        color: white;
+    }
+    .el-notification__title {
+        color: white;
+    }
+}

@@ -1,0 +1,11 @@
+body {
+  font-size: $body-font-size;
+}
+
+* {
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
