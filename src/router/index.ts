@@ -18,8 +18,11 @@ const routes: Array<RouteRecordRaw> = [
   },
 ]
 
+const isProd = process.env.NODE_ENV === 'production'
+const basePath = isProd ? '/micro-root/sub' : '/sub'
+
 const router = createRouter({
-  history: createWebHistory('/sub'),
+  history: createWebHistory(basePath),
   routes,
 })
 
