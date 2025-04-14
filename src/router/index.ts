@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/Home/index.vue'
-import TodoView from '../views/Todo/index.vue'
+import PlansView from '../views/Plans/index.vue'
 
 // ✅ 根據實際網址來判斷 base path
 const isProd = location.pathname.startsWith('/micro-root')
@@ -13,9 +13,9 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
   },
   {
-    path: '/todo',
-    name: 'todo',
-    component: TodoView,
+    path: '/plans',
+    name: 'plans',
+    component: PlansView,
   },
 ]
 

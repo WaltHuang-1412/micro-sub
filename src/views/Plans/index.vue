@@ -186,14 +186,14 @@ onMounted(() => {
 
   &__header {
     width: 100%;
-    height: 100px;
+    height: 60px;
     padding: 10px 0;
     display: flex;
     gap: 10px;
   }
   &__content {
     width: 100%;
-    height: calc(100% - 100px);
+    height: calc(100% - 60px);
   }
 }
 
