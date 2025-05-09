@@ -4,7 +4,7 @@ import axios from 'axios'
 const isProd = location.pathname.startsWith('/micro-root')
 
 const instance = axios.create({
-  baseURL: isProd ? 'https://api.hex-studio.net/api/v1' : '/api/v1',
+  baseURL: isProd ? 'https://api.hex-studio.live/api/v1' : '/api/v1',
   timeout: 10000,
   withCredentials: true, // 若有跨域 cookie 可保留
 })
